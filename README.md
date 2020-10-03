@@ -1,9 +1,9 @@
 # LMS - Library Management System
 
 ## To run the project 
-* In QTCreator open the project by clicking on LMS.pro or via QTCreator interface: File/Open File or Project...
+* In QTCreator open the project by clicking on `LMS.pro` or via QTCreator interface: File/Open File or Project...
 * Clik on hammer sign to build project. Shortcut CTRL+B
-* After building the project, from folder \database you must copy two files database.sqlite & rules.txt to builded project folder, where LMS.exe is located.
+* After building the project, from folder `database` you must copy two files `database.sqlite` & `rules.txt` to builded project folder, where `LMS.exe` is located.
 
 	
 * List of Roles:
