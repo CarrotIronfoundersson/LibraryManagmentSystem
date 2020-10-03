@@ -11,13 +11,12 @@
 	* Library_worker
 	* Supplier
 	
-* List of users:
-	* username	/	 password	/	role
+* List of users(username / password / role):
 	
-	admin / admin / Contains all tree roles as separate tabs
-	Tim / tim / User
-	John / 987 / User(locked, not yet verified by librarian )
-	Lea / 123 / Library_worker
-	Mike / 777 / Supplier
+	* admin / admin / Contains all tree roles as separate tabs
+	* Tim / tim / User
+	* John / 987 / User(locked, not yet verified by librarian )
+	* Lea / 123 / Library_worker
+	* Mike / 777 / Supplier
 
 
