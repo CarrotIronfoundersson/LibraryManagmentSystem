@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="windowModality">
+   <enum>Qt::ApplicationModal</enum>
+  </property>
+  <property name="enabled">
+   <bool>true</bool>
+  </property>
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>976</width>
+    <height>573</height>
+   </rect>
+  </property>
+  <property name="mouseTracking">
+   <bool>true</bool>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="../src.qrc">
+    <normaloff>:/images/iconwindow.png</normaloff>:/images/iconwindow.png</iconset>
+  </property>
+  <property name="autoFillBackground">
+   <bool>true</bool>
+  </property>
+  <property name="iconSize">
+   <size>
+    <width>36</width>
+    <height>36</height>
+   </size>
+  </property>
+  <property name="dockOptions">
+   <set>QMainWindow::AllowTabbedDocks|QMainWindow::AnimatedDocks</set>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QHBoxLayout" name="horizontalLayout">
+    <item>
+     <widget class="QTabWidget" name="tabWidget">
+      <property name="currentIndex">
+       <number>-1</number>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <widget class="QToolBar" name="toolBar">
+   <property name="windowTitle">
+    <string>toolBar</string>
+   </property>
+   <property name="movable">
+    <bool>false</bool>
+   </property>
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+   <addaction name="actionHome"/>
+  </widget>
+  <widget class="QToolBar" name="toolBar_2">
+   <property name="windowTitle">
+    <string>toolBar_2</string>
+   </property>
+   <property name="toolTipDuration">
+    <number>-1</number>
+   </property>
+   <property name="movable">
+    <bool>false</bool>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>70</width>
+     <height>40</height>
+    </size>
+   </property>
+   <attribute name="toolBarArea">
+    <enum>BottomToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+   <addaction name="actionabout"/>
+   <addaction name="actionSignIn"/>
+   <addaction name="actionSignUp"/>
+   <addaction name="actionSignOut"/>
+  </widget>
+  <action name="actionSignUp">
+   <property name="icon">
+    <iconset resource="../src.qrc">
+     <normaloff>:/images/signupicon.png</normaloff>:/images/signupicon.png</iconset>
+   </property>
+   <property name="text">
+    <string>Sign Up</string>
+   </property>
+   <property name="toolTip">
+    <string>Sign Up</string>
+   </property>
+   <property name="statusTip">
+    <string>Sign Up</string>
+   </property>
+  </action>
+  <action name="actionSignIn">
+   <property name="icon">
+    <iconset resource="../src.qrc">
+     <normaloff>:/images/signin.ico</normaloff>:/images/signin.ico</iconset>
+   </property>
+   <property name="text">
+    <string>Log in</string>
+   </property>
+   <property name="iconText">
+    <string>Log in</string>
+   </property>
+   <property name="toolTip">
+    <string>Log in</string>
+   </property>
+   <property name="statusTip">
+    <string>Log in</string>
+   </property>
+  </action>
+  <action name="actionSignOut">
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
+   <property name="icon">
+    <iconset resource="../src.qrc">
+     <normaloff>:/images/signout.ico</normaloff>:/images/signout.ico</iconset>
+   </property>
+   <property name="text">
+    <string>SignOut</string>
+   </property>
+   <property name="toolTip">
+    <string>Exit program</string>
+   </property>
+   <property name="statusTip">
+    <string>Exit program</string>
+   </property>
+  </action>
+  <action name="actionHome">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="checked">
+    <bool>false</bool>
+   </property>
+   <property name="icon">
+    <iconset resource="../src.qrc">
+     <normaloff>:/images/home.ico</normaloff>:/images/home.ico</iconset>
+   </property>
+   <property name="text">
+    <string>Home</string>
+   </property>
+   <property name="toolTip">
+    <string>Log out</string>
+   </property>
+   <property name="statusTip">
+    <string>Return to home page</string>
+   </property>
+  </action>
+  <action name="actionabout">
+   <property name="icon">
+    <iconset resource="../src.qrc">
+     <normaloff>:/images/team.png</normaloff>:/images/team.png</iconset>
+   </property>
+   <property name="text">
+    <string>about</string>
+   </property>
+   <property name="toolTip">
+    <string>Develop team</string>
+   </property>
+   <property name="statusTip">
+    <string>Develop team</string>
+   </property>
+  </action>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <tabstops>
+  <tabstop>tabWidget</tabstop>
+ </tabstops>
+ <resources>
+  <include location="../src.qrc"/>
+ </resources>
+ <connections/>
+</ui>

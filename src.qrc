@@ -1,0 +1,28 @@
+<RCC>
+    <qresource prefix="/">
+		<file>database/database.sqlite</file>
+		<file>database/rules.txt</file>
+		<file>images/add.png</file>
+		<file>images/acc.png</file>
+		<file>images/addbook.png</file>
+		<file>images/b.png</file>
+		<file>images/borrow.png</file>
+		<file>images/cancel.jpg</file>
+		<file>images/confirm.png</file>
+		<file>images/confirm2.png</file>
+		<file>images/deletebook-icon.png</file>
+		<file>images/home.ico</file>
+		<file>images/Home.png</file>
+		<file>images/iconwindow.ico</file>
+		<file>images/iconwindow.png</file>
+		<file>images/modify.png</file>
+		<file>images/receive.png</file>
+		<file>images/refresh.png</file>
+		<file>images/return.png</file>
+		<file>images/search-icon.png</file>
+		<file>images/signin.ico</file>
+		<file>images/signout.ico</file>
+		<file>images/signupicon.png</file>
+		<file>images/team.png</file>
+    </qresource>
+</RCC>
